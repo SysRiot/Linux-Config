@@ -3,7 +3,7 @@
 # Script de configuración y optimización para Kali Linux
 # Autor: SysRiot
 # Descripción: Automatiza la configuración inicial y optimización de Kali Linux con opciones personalizables.
-# Repositorio: https://github.com/SysRiot/Kali-Config
+# Repositorio: https://github.com/SysRiot/Linux-Config
 # V-1.1
 
 set -e  # Detiene la ejecución si ocurre un error
@@ -101,6 +101,6 @@ echo "--------------------------------------------"
 echo "✅ Configuración y optimización completada"
 echo "💻 Reinicia el sistema para aplicar los cambios"
 echo "🔥 Script creado por -> SysRiot"
-echo "📂 Repositorio: https://github.com/SysRiot/Kali-Config"
+echo "📂 Repositorio: https://github.com/SysRiot/Linux-Config"
 echo "📜 Log guardado en: $LOGFILE"
 echo "--------------------------------------------"
