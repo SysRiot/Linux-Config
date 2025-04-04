@@ -1,18 +1,41 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Archivos de sistema y temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
 
-# Other files and folders
-.settings/
+# Archivos de caché y logs
+*.log
+*.cache
+*.pid
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Archivos de configuración locales
+*.config
+*.env
+*.local
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Archivos específicos de bash
+.bash_history
+.bash_logout
+.bashrc
+.profile
+
+# Archivos de salida o binarios
+*.out
+*.o
+*.so
+*.exe
+*.bin
+
+# Carpetas ocultas y de control de versiones
+.git/
+.idea/
+.vscode/
+__pycache__/
+
+# Exclusiones específicas para tu proyecto
+Ubuntu-Config.sh~
+LinuxMint-Config.sh~
+Kali-Config.sh~
